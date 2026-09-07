@@ -69,9 +69,11 @@ nav {
 .nav__links {
     display: flex;
     align-items: center;
-}
+    gap: 24px;
+    background: none;
+    border: none }
 
-.nav__logo--img {
+    .nav__logo--img {
     width: 32px;
     height: 32px;
     margin-right: 8px;
@@ -153,10 +155,11 @@ HEADER / ABOUT US ↓
 */
 
 
-header .row {
+}
+
+.header.row {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;    
 }
 
 
