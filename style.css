@@ -155,13 +155,19 @@ HEADER / ABOUT US ↓
 */
 
 
-}
 
-.header.row {
+header .row {
     display: flex;
-    flex-direction: column;    
+      
 }
 
+.header__img--wrapper {
+    width: 50%
+}
+
+.header__img {
+    width: 100%;
+}
 
 /* 
 
