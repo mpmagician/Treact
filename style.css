@@ -13,6 +13,15 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 18px;}
+
+h1 {font-size: 48px; color: #1a202c; font-weight: 700; line-height: 1.2;}
+
+
+
+img {width: 100%;}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -156,18 +165,71 @@ HEADER / ABOUT US ↓
 
 
 
+
 header .row {
     display: flex;
       
 }
 
+.header__customers--title {margin: 80px;}
+
+.header__description--para {margin: 32px;}
+
+
+
+.header__description {
+    width: 40%;}
+
 .header__img--wrapper {
-    width: 50%
+    width: 60%;
 }
 
-.header__img {
+.header__email {
     width: 100%;
+    max-width: 448px;
+    height: 68px;
+position:relative;
+display:flex; 
+justify-content:center;
 }
+
+.header__email--button {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: #ffff;
+    font-weight:700px;
+    font-size: 16px;
+    transition: all 300ms ease;}
+
+
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;}
+    
+
+/*
+
+
+
+
+
+
 
 
 
