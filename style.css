@@ -584,7 +584,7 @@ values__container img {
 }
 
 #values .btn {
-    margin-top: 3
+    margin-top: 48px;
 }
 
 .btn {
@@ -635,7 +635,7 @@ values__container img {
     line-height: 1.625;
 }
 
-/*box around affordable*no color*/
+
 .value {
     align-items: flex-start;
     display: flex;
