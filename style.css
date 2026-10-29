@@ -1445,6 +1445,7 @@ MOBILE RESPONSIVENESS ↓
   .testimonials__description {
     width: calc(100% - 40%);
   }
+  
 
 }
 @media (max-width: 1024px) {
@@ -1668,7 +1669,7 @@ MOBILE RESPONSIVENESS ↓
     padding-left: 32px;
     line-height: 1.5;
   }
-  .header__email--btn {
+  .header__email--button {
     width: 100%;
     padding: 16px 0;
     margin: 16px 0;
